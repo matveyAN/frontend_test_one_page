@@ -1,0 +1,435 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+header {
+  background-color: #e9e9e9;
+}
+.logo {
+  padding-top: 38px;
+  display: inline-block;
+}
+.menu {
+  float: right;
+}
+.menu ul{
+  list-style: none;
+  padding-top: 45px;
+  margin-top: 0;
+}
+.menu li{
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.menu li a:hover {
+  color: #10c9c3;
+  cursor: pointer;
+}
+.menu li a {
+  text-decoration: none;
+  color: #000;
+}
+.text_header {
+  width: 1150px;
+  padding-top: 160px;
+  padding-left: 670px;
+  padding-bottom: 200px;
+}
+h1 {
+  font-size: 38px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.description {
+  font-size: 18px;
+  color: #787878;
+  padding-bottom: 36px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+button {
+  border: none;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px 45px;
+  background-color: #10c9c3;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.about_us {
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+.text_about_us {
+  padding-top: 15px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  color: #787878;
+  width: 630px;
+  margin: 0 auto;
+}
+.text_about_us_bottom {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  color: #787878;
+  width: 630px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+}
+.left_side {
+  background-color: #f8f9f9;
+  padding-left: 98px;
+  padding-top: 140px;
+  height: 570px;
+}
+.right_side {
+  height: 570px;
+  background-color: #e9e9e9;
+}
+.skill_level{
+  height: 5px;
+  width: 500px;
+  margin-top: 20px;
+}
+.skill_name {
+  padding-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.skill_name span {
+  padding-left: 15px;
+}
+.skill_level_design {
+   background-image: linear-gradient(to right, rgb(16, 201, 195) 75%, rgb(216, 216, 216) 25%);
+}
+.skill_level_web {
+  background-image: linear-gradient(to right, rgb(16, 201, 195) 90%, rgb(216, 216, 216) 10%);
+}
+.skill_level_marketing {
+  background-image: linear-gradient(to right, rgb(16, 201, 195) 65%, rgb(216, 216, 216) 35%);
+}
+.statistics {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #10c9c3;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+.statistics_number {
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.project {
+  padding-left: 151px;
+}
+.project:before {
+  content: "\f0b1";
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  left: 102px;
+  top: 8px;
+  font-size: 47px;
+}
+.working_hours {
+  padding-left: 113px;
+}
+.working_hours:before {
+  content: "\f017";
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  left: 58px;
+  top: 0;
+  font-size: 52px;
+}
+.feedback {
+  padding-left: 76px;
+}
+.feedback:before {
+  content: "\f006";
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  left: 20px;
+  top: 4px;
+  font-size: 47px;
+}
+.happy_clients {
+  padding-left: 27px;
+}
+.happy_clients:before {
+  content: "\f08a";
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  left: -35px;
+  top: 4px;
+  font-size: 47px;
+}
+.item_1, .item_3, .item_6, .item_8 {
+  background-color: #838383;
+  height: 300px;
+  padding: 0;
+  position: relative;
+}
+.item_2, .item_4, .item_5, .item_7 {
+  background-color: #ddd;
+  height: 300px;
+  padding: 0;
+}
+.item:hover .eye:before {
+  content: "\f06e";
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  padding-left: 45%;
+  padding-top: 40%;
+  font-size: 38px;
+}
+.col-md-12 {
+  padding: 0;
+}
+.work_loader {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.work_loader a {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #8e8e8e;
+  text-decoration: none;
+}
+.work_loader a:hover {
+  color: #10c9c3;
+  cursor: pointer;
+}
+.work_process {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.work_process_text {
+  width: 510px;
+  margin: 0 auto;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  color: #787878;
+  padding-top: 27px;
+  padding-bottom: 55px;
+}
+.services {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.top_text_services {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding-top: 27px;
+  padding-bottom: 15px;
+}
+.text_services {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  color: #787878;
+}
+.icon {
+  width: 42px;
+  height: 42px;
+  margin: 0 auto;
+}
+.icon_5, .icon_6, .icon_7, .icon_8 {
+  margin-top: 55px;
+}
+#reviews {
+  background-color: #10c9c3;
+  padding-top: 175px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.reviews .item {
+  width: 820px;
+  margin: 0 auto;
+}
+.owl-dots {
+      margin: 0 auto /*for centering the dots*/
+}
+.owl-dot {
+     width: 10px;
+     height: 10px;
+     border-radius: 100%;
+     border: 1px solid #ccc;
+     background: #b0e8e6;
+     margin-right: 10px;
+     display: inline-block;  /*for making them horizontal, if you want vertical then you can use- display: block*/
+}
+.owl-dots .active {
+     width: 13px;
+     height: 13px;
+     border-radius: 100%;
+     border: 1px solid #ccc;
+     background: #fff;
+     margin-right: 10px;
+     display: inline-block;  /*for making them horizontal, if you want vertical then you can use- display: block*/
+}
+.reviews_text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.reviews_author {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 105px;
+}
+.logos {
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+.logos ul {
+  list-style: none;
+}
+.logos li {
+  display: inline-block;
+}
+.logos li:nth-child(1) {
+  margin-right: 150px;	
+}
+.logos li:nth-child(2) {
+  margin-right: 150px;	
+}
+.logos li:nth-child(3) {
+  margin-right: 150px;	
+}
+.logos li:nth-child(4) {
+  margin-right: 150px;	
+}
+.contact {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact_text {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  color: #787878;
+  width: 540px;
+  margin: 0 auto;
+  padding-top: 28px;
+  padding-bottom: 40px;
+}
+#form {
+  width: 670px;
+  margin: 0 auto;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+}
+#form input {
+  border: none;
+}
+#form input[name="name"] {
+  width: 320px;
+  height: 48px;
+  padding-left: 20px;
+  margin-right: 12px;
+}
+#form input[name="email"] {
+  width: 320px;
+  height: 48px;
+  padding-left: 20px;
+  margin-left: 13px;	
+
+}
+#form input[name="title"] {
+  width: 100%;
+  height: 48px;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+#form textarea {
+  width: 100%;
+  height: 170px;
+  border: none;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+#form input[type="submit"] {
+  border: none;
+  background-color: #10c9c3;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 22px 35px;
+  margin-top: 30px;
+}
+footer {
+  background-color: #000;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.company_name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 25px;
+}
+.rights, .designed_by, .mail, .phone_number {
+  color: #bcbcbc;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+}
+footer a, .rights, .designed_by, .mail, .phone_number {
+  color: #bcbcbc;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+footer ul {
+  list-style: none;
+}
+footer a:hover {
+  text-decoration: none;
+  color: #10c9c3;
+}
+.contact_info {
+  padding-left: 70px;
+}

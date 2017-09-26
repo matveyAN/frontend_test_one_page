@@ -1,0 +1,237 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.top_header {
+  padding-left: 20px;
+}
+.logo {
+  display: block;
+}
+.menu {
+  float: none;
+}
+.menu ul {
+  padding-left: 0px;
+}
+.menu ul li {
+  padding-left: 0px;
+  display: block;
+  padding-bottom: 10px;
+}
+.text_header {
+  padding-left: 20px;
+  padding-top: 0;
+  width: 800px;
+}
+.logos li:nth-child(1) {
+  margin-right: 100px;	
+}
+.logos li:nth-child(2) {
+  margin-right: 100px;	
+}
+.logos li:nth-child(3) {
+  margin-right: 100px;	
+}
+.logos li:nth-child(4) {
+  margin-right: 100px;	
+}
+footer ul {
+  padding-left: 0;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.text_header {
+  width: 600px;
+}
+.project {
+  padding-left: 76px;
+}
+.project:before {
+  left: 20px;
+}
+.working_hours {
+  padding-left: 27px;
+}
+.working_hours:before {
+  left: -35px;
+}
+.icon_5, .icon_6, .icon_7, .icon_8 {
+  margin-top: 0;
+}
+.reviews .item {
+  width: 500px;
+  
+}
+.logos li:nth-child(1) {
+  margin-right: 50px;	
+}
+.logos li:nth-child(2) {
+  margin-right: 50px;	
+}
+.logos li:nth-child(3) {
+  margin-right: 50px;	
+}
+.logos li:nth-child(4) {
+  margin-right: 50px;	
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.text_header {
+  width: 450px;
+}
+.text_about_us, .text_about_us_bottom {
+  width: 450px;
+}
+.left_side {
+  padding-left: 20px;
+}
+.skill_level {
+  width: 350px;
+}
+.working_hours {
+  padding-left: 76px;
+}
+.working_hours:before {
+  left: 20px;
+}
+.happy_clients {
+  padding-left: 76px;
+}
+.happy_clients:before {
+  left: 20px;
+}
+.item {
+  width: 50%;
+}
+.logos li:nth-child(1) {
+  margin-right: 25px;	
+}
+.logos li:nth-child(2) {
+  margin-right: 25px;	
+}
+.logos li:nth-child(3) {
+  margin-right: 25px;	
+}
+.logos li:nth-child(4) {
+  margin-right: 25px;	
+}
+#form input[name="name"] {
+  width: 100%;
+  margin-right: 0;
+}
+#form input[name="email"] {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 30px;
+}
+#form {
+  text-align: left;
+  margin-left: 10px;
+}
+.contact_text {
+  width: 400px;
+}
+.contact_info {
+  padding-left: 0;
+}
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 520px) {
+.text_header {
+  width: 320px;
+}
+h1 {
+  font-size: 18px;
+}
+.description {
+  font-size: 15px;
+}
+button {
+  padding: 10px 30px;
+}
+.work_process_text {
+  width: 350px;
+}
+.reviews .item {
+  width: 350px;
+  
+}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.text_about_us, .text_about_us_bottom {
+  width: 300px;
+}
+.skill_level {
+  width: 250px;
+}
+.item {
+  width: 100%;
+}
+.logos {
+  text-align: center;
+}
+.logos li {
+  display: block;
+  padding-top: 25px;
+}
+.contact_text {
+  width: 300px;
+}
+}
+@media only screen and (max-width : 360px) {
+.text_header {
+  width: 230px;
+  padding-bottom: 30px;
+}
+.work_process_text {
+  width: 250px;
+}
+.reviews_text {
+  font-size: 16px;
+  
+}
+.reviews .item {
+  width: 300px;
+  
+}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
